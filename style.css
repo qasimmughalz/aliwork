@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.relative{
+    position: relative;
+}
+
+/* ============ HEADER ================ */
+.logo{
+    height: 60px;
+}
+
+.navbar .nav-link{
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+.navbar-nav .nav-item{
+    margin: 0px 2px;
+}
+.btn-primary{
+    background-color: #455856;
+    border: 1px solid #6e9087;
+    border-radius: 0px;
+}
+.btn-primary:hover{
+    border-radius: 0px;
+    background-color: #455856;
+    border: 1px solid #6e9087;
+} 
+.form-control{
+    border: 1px solid #000;
+    border-radius: 0px;
+}   
+
+.search-icon{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.navbar-nav .nav-item .form-control{
+    padding-left: 33px;
+}
