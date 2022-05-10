@@ -45,3 +45,42 @@
 .navbar-nav .nav-item .form-control{
     padding-left: 33px;
 }
+
+/* ====================img====================*/
+.position{
+    position:relative;
+ }
+ .vr-text{
+     position: absolute;
+     left: -10px;
+     top: 15%;
+     background-color: #fff;
+     padding: 10px 0;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    transform: rotate(180deg);
+ }
+.hr-line{
+    position: absolute;
+    left: -60px;
+    height: 95%;
+    border-left: 1px solid #000; 
+   }
+.pic-font
+{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.list{
+    position: absolute;
+    background-color: #fff;
+    bottom: -10%;
+    left: -10px;
+    padding: 10px 3px;
+    list-style-type: none;
+}
+.list li a{
+    color: #000;
+    font-size: 18px;
+}
